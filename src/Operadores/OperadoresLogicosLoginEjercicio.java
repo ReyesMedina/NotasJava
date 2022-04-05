@@ -8,13 +8,9 @@ public class OperadoresLogicosLoginEjercicio {
         //Ejemplo de login usando operadores logicos
 
         //usuarios registrados
-        String [] usernames = new String[2];
-        String [] passwords = new String[2];
-        usernames[0] = "pedro";
-        passwords[0]= "12345";
+        String [] usernames = {"pedro","admin"};
+        String [] passwords = {"12345","admin00"};
 
-        usernames[1]= "admin";
-        passwords[1] = "admin00";
 
 
         Scanner scanner = new Scanner(System.in);
